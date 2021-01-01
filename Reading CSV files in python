@@ -1,0 +1,7 @@
+import csv 
+
+with open('visualyze_interns.csv', mode ='r')as visualyze_interns_csv: 
+csv_reader = csv.reader(visualyze_interns_csv) 
+
+for row in csv_reade: 
+		print(row[2]) 
