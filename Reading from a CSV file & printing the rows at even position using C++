@@ -23,7 +23,7 @@ void read_record()
 		if (roll2 == rollnum) { 
 			count = 1; 
 			cout << "Details of Roll " << row[0] << " : \n"; 
-		  cout << "Name: " << row[2] << "\n"; 
+		         cout << "Name: " << row[2] << "\n"; 
 			cout << "subject3: " << row[4] << "\n"; 
 			cout << "subject5: " << row[6] << "\n"; 
 			break; 
